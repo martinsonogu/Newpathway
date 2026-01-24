@@ -1,0 +1,1 @@
+export  { default as ContactFull } from './ContactFull'
