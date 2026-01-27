@@ -24,14 +24,14 @@ const VacancyCard: React.FC<VacancyCardProps> = ({
     <p className="text-gray-700 mb-6">{description}</p>
 
     <div className="flex items-center gap-4 mt-auto">
-      <Button variant="primary" onClick={() => navigate(applyRoute)}>
+      <Button variant="secondary" onClick={() => navigate(applyRoute)}>
         Apply Now
       </Button>
 
       {moreRoute && (
         <button
           onClick={() => navigate(moreRoute)}
-          className="text-blue-600 hover:underline font-medium"
+          className="text-teal-600 hover:underline font-medium"
         >
           Learn more...
         </button>
