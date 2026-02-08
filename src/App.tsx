@@ -10,7 +10,7 @@ import {JobDetails} from "./Pages/jobDetails"
 import ScrollToTop from './components/ScrollToTop';
 import { Footer } from './Pages/footer';
 import { Outreach } from './Pages/services'; 
-
+import { ApplyNow } from './Pages/apply';
 
 function App() {
 
@@ -26,6 +26,7 @@ function App() {
         <Route path="/vacancy" element={<Vacancy />} />
         <Route path="/details" element={<JobDetails />} />
         <Route path="/services/outreach" element={<Outreach />} />
+        <Route path="/apply" element={<ApplyNow />} />
         {/* <Route path="/services/test2" element={<Test2 />} />
        <Route path="/services/test3" element={<Test3 />} /> */}
       </Routes>

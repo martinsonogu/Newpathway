@@ -11,21 +11,16 @@ const Vacancy = () => {
       title="Support Worker"
           description="Do you have previous experience as a support worker, care assistant? 
           We are looking for someone who is passionate, who want to make a difference to people’s lives."
-      applyRoute="/apply/frontend"
+      applyRoute="/details"
       moreRoute="/details"
     />
-    <VacancyCard
-      title="Nurse"
-      description="Work on APIs, databases, and scalable backend services using Node.js."
-      applyRoute="/apply/backend"
-      moreRoute="/jobs/details"
-    />
-    <VacancyCard
+    
+    {/* <VacancyCard
       title="Home Manager"
       description="Craft intuitive and beautiful user experiences that delight users."
       applyRoute="/apply/uiux"
       moreRoute="/jobs/details"
-    />
+    />  */}
   </div>
 </section>
 

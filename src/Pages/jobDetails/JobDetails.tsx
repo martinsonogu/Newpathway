@@ -1,9 +1,11 @@
-import { useNavigate } from "react-router-dom";
 import Button from "@/components/button/Button";
+import { useNavigate } from "react-router-dom";
+
+
+
 
 const JobDetails = () => {
-  const navigate = useNavigate();
-
+  const navigate = useNavigate()
   return (
     <section className="max-w-6xl mx-auto bg-white py-2 md:py-4 lg:py-8 px-2 md:px-4 lg:px-8 mt-24">
       <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
@@ -15,10 +17,12 @@ const JobDetails = () => {
         Kent | United Kingdom
       </div>
 
-      <Button variant="secondary" onClick={() => navigate("/apply/support_worker")}>
+      <Button variant="secondary"
+        onClick={() => navigate("/apply")}
+      >
         Apply Now
       </Button>
-
+        
       <div className="mt-12 space-y-10 text-gray-700 text-base leading-relaxed">
         <div>
           <h2 className="text-xl font-semibold text-gray-800 mb-2">
@@ -72,7 +76,7 @@ const JobDetails = () => {
           <ul className="list-disc pl-6 space-y-2 mb-2 text-base md:text-lg lg:text-xl font-[Poppins] text-justify">
             <li>1+ years of experience required</li>
             <li>Strong Communication skill</li>
-            <li>Experience with working with children</li>
+            <li>Experience working with children</li>
           </ul>
         </div>
 
@@ -88,9 +92,12 @@ const JobDetails = () => {
       </div>
 
       <div className="mt-12">
-        <Button variant="secondary" onClick={() => navigate("/apply/frontend")}>
+        <Button variant="secondary"
+          onClick={() => navigate("/apply")}
+        >
           Apply Now
         </Button>
+        
       </div>
     </section>
   );
