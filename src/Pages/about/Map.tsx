@@ -18,7 +18,9 @@ L.Icon.Default.mergeOptions({
 const locations = [
   { name: '2 Dickens Rd, Gravesend DA12 2JY', lat: 51.4349, lng: 0.3920 },
   { name: '209 Old Rd E, Gravesend DA12 1PW', lat: 51.4324, lng: 0.3902 },
-  { name: '5 Bernard St, Gravesend DA12 2EX', lat: 51.4426, lng: 0.3726 }
+  { name: '5 Bernard St, Gravesend DA12 2EX', lat: 51.4426, lng: 0.3726 },
+  { name: '17 Steven Close, Chatham ME4 5NG', lat: 51.374848, lng: 0.533564}
+
 ];
 
 export default function LocationMap() {

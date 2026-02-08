@@ -54,9 +54,9 @@ const Navbar: React.FC = () => {
             className="p-2 rounded-md hover:bg-indigo-100 transition"
           >
             {isOpen ? (
-              <X className="w-6 h-6 text-indigo-700" />
+              <X className="w-6 h-6 text-teal-600" />
             ) : (
-              <Menu className="w-6 h-6 text-indigo-700" />
+              <Menu className="w-6 h-6 text-teal-600" />
             )}
           </button>
         </div>
