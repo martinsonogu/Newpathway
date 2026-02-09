@@ -25,7 +25,7 @@ const locations = [
 
 export default function LocationMap() {
   return (
-    <MapContainer center={[51.4349, 0.3920]} zoom={14} className="h-[500px] w-full rounded-2xl">
+    <MapContainer center={[51.4349, 0.3920]} zoom={14}  scrollWheelZoom={false} className="h-[400px] w-full rounded-2xl">
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="&copy; OpenStreetMap contributors"

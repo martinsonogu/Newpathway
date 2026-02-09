@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand / About */}
           <div>
             <h3 className="text-white text-xl font-semibold mb-4">
-              New Pathway1
+              NewPathway1
             </h3>
             <p className="text-sm leading-relaxed">
               Providing compassionate Supported Living and Residential Care,
@@ -78,12 +78,12 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/safeguarding" className="hover:text-white">
+                <Link to="/" className="hover:text-white">
                   Safeguarding
                 </Link>
               </li>
               <li>
-                <Link to="/complaints" className="hover:text-white">
+                <Link to="/" className="hover:text-white">
                   Complaints & Feedback
                 </Link>
               </li>
@@ -93,9 +93,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/accessibility" className="hover:text-white">
+                {/* <Link to="/" className="hover:text-white">
                   Accessibility
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>
@@ -106,7 +106,7 @@ const Footer = () => {
           
           {/* Copyright */}
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} New Pathway1 Limited. All rights reserved.
+            © {new Date().getFullYear()} Newpathway1 Limited. All rights reserved.
           </p>
 
           {/* Reassurance */}

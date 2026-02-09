@@ -11,7 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { Footer } from './Pages/footer';
 import { Outreach } from './Pages/services'; 
 import { ApplyNow } from './Pages/apply';
-
+import { Privacy } from './Pages/privacy';
 function App() {
 
   return (
@@ -27,6 +27,7 @@ function App() {
         <Route path="/details" element={<JobDetails />} />
         <Route path="/services/outreach" element={<Outreach />} />
         <Route path="/apply" element={<ApplyNow />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
         {/* <Route path="/services/test2" element={<Test2 />} />
        <Route path="/services/test3" element={<Test3 />} /> */}
       </Routes>

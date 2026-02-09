@@ -151,7 +151,7 @@ const ApplyNow = () => {
             >
               <option value="">Select a role</option>
               <option value="Support Worker">Support Worker</option>
-              <option value="Care Assistant">Care Assistant</option>
+              <option value="Care Assistant">Supervisor</option>
               <option value="Trainee">Volunteer</option>
               <option value="Other">Other</option>
             </select>
