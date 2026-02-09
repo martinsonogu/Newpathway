@@ -1,6 +1,5 @@
 import FacilityRow from "../../components/facility_row/FacilityRow";
 import Relaxation from "../../assets/relaxation.jpg"
-import Sensory from "../../assets/relax.jpg"
 import Game from "../../assets/game.jpg"
 const Facilities: React.FC = () => {
   return (
