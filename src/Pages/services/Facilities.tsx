@@ -3,7 +3,7 @@ import Relaxation from "../../assets/relaxation.jpg"
 import Game from "../../assets/game.jpg"
 const Facilities: React.FC = () => {
   return (
-    <section className=" mx-auto px-4 py-12">
+    <section className=" mx-auto  py-12">
       <h2 className="text-2xl mb-10 font-bold font-[poppins] text-teal-500">
         Facilities and Activities
       </h2>

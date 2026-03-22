@@ -11,7 +11,7 @@ const navItems = [
   { label: 'About', href: '/about' },
   { label: 'Services', subItems: [
       { label: 'Outreach center', href: '/services/outreach' },
-      // { label: 'Test 2', href: '/services/test2' },
+      { label: 'Residential homes', href: '/services/residential-home' },
       // { label: 'Test 3', href: '/services/test3' },
     ] },
   { label: 'Contact', href: '/contact' },
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
           <Link to="/">
             <img src={Logo} alt="Logo" className="w-24 h-auto object-contain" />
           </Link>
-        </div>
+        </div> 
 
         {/* Center: Nav items (Desktop only) */}
         <div className="hidden md:flex items-center space-x-8 mx-auto">

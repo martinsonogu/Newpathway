@@ -49,8 +49,8 @@ const FadeInSection = ({
   ref={ref}
   className={`
     transition-all duration-700 ease-out
-    mt-2 p-4
-    md:mt-4 md:p-8
+    mt-2 
+    md:mt-4 
     ${
       isVisible
         ? "opacity-100 translate-y-0"

@@ -19,12 +19,18 @@ const About = () => {
       <div>
       <h2 className="mb-4 lg:mb-2 text-base md:text-lg lg:text-xl font-[Poppins] text-justify bold text-teal-500">STAFF</h2>
       <p className="mb-4 lg:mb-2 text-base md:text-lg lg:text-xl font-[Poppins] text-justify">
-        Our trained and dedicated staff provides 24 hour care and support to help you maintain your chosen lifestyle.
+        {/* Our trained and dedicated staff provides 24 hour care and support to help you maintain your chosen lifestyle.
         Adapting as your needs change. We pride ourselves on our low staff turnover; the longest serving member of staff
-        has been in post for 5 years!
+        has been in post for 5 years! */}
+          Our Residential home is staffed by a dedicated, experienced and passionate team of professionals. Every member of our teamwork
+          Every member of our team is carefully recruited and thoroughly vetted, with enhanced DBS checks completed prior to employment.
+          Our staff hold relevant qualifications in health and social care, and all recieve ongoing training in areas including safeguarding, 
+          trauma-informed practice, medication management, first-aid and positive behaviour support.
         </p>
         <p className="mb-4 lg:mb-2 text-base md:text-lg lg:text-xl font-[Poppins] text-justify">
-          All staff who are employed are given induction training plus reference checks.
+          We are proud of the culture within our team. On e built on mutual respect, shared values and a genuine commitment to the young
+          commitment to the young people we serve. Staff wellbeing is important to us and we invest in supervision, reflective practice, and professional development to ensure
+          our team are suppported to the their best work.
         </p>
       </div>
        {/* Activities main */}

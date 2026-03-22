@@ -22,7 +22,7 @@ const FacilityRow: React.FC<FacilityRowProps> = ({
     >
       {/* Text */}
       <div className="md:w-1/2">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">{title}</h3>
+        <h3 className="text-xl font-semibold text-gray-500 mb-3">{title}</h3>
         <p className=" leading-relaxed text-base md:text-lg lg:text-xl font-[Poppins] text-justify">
           {description}
         </p>

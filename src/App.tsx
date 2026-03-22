@@ -12,6 +12,8 @@ import { Footer } from './Pages/footer';
 import { Outreach } from './Pages/services'; 
 import { ApplyNow } from './Pages/apply';
 import { Privacy } from './Pages/privacy';
+import { Reshome } from './Pages/services/ResHome';
+
 function App() {
 
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path="/vacancy" element={<Vacancy />} />
         <Route path="/details" element={<JobDetails />} />
         <Route path="/services/outreach" element={<Outreach />} />
+        <Route path="/services/residential-home" element={<Reshome />} />
         <Route path="/apply" element={<ApplyNow />} />
         <Route path="/privacy-policy" element={<Privacy />} />
         {/* <Route path="/services/test2" element={<Test2 />} />

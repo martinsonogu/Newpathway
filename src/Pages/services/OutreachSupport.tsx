@@ -27,7 +27,7 @@ const OutreachSupport: React.FC = () => {
     <ContentRow
       left={
         <>
-          <h3 className="text-2xl lg:text-3xl font-semibold mb-4 font-[Poppins]">
+          <h3 className="text-2xl lg:text-3xl font-semibold mb-4 font-[Poppins] text-teal-500">
             Purpose of the Outreach Centre
           </h3>
 
@@ -48,7 +48,7 @@ const OutreachSupport: React.FC = () => {
       }
       right={
         <>
-          <h3 className="text-2xl lg:text-3xl font-semibold mb-4 font-[Poppins]">
+          <h3 className="text-2xl lg:text-3xl font-semibold mb-4 font-[Poppins] text-teal-500">
             Individualised Support
           </h3>
 
